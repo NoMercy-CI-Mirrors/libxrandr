@@ -83,6 +83,7 @@ lib = library(
   dependencies: [dep_randrproto, dep_libxext, dep_xextproto,
                  dep_libxrender, dep_renderproto, dep_libx11],
   version: '2.2.0',
+  darwin_versions: [ '5.0.0', '5.0.0' ],
   install: true,
 )
 dep = declare_dependency(
